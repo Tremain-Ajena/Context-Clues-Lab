@@ -18,6 +18,7 @@ function accuseNumber() {
     };
 
     // var j = friends.length % locations.length % weapons.length;
+    // this was the original way I attempted to implement the modulo function but it only cycled through for some parts and not all of them when put in the regular brackets where the letter variables now reside.
     
     function accuseClicker(i) {
         return function () {
@@ -31,21 +32,21 @@ function accuseNumber() {
 
     };
 
-// function accuseClicker() {
-
-//     return $('h3').on('click', function (event) {
-//         i = 1
-//         // var h3Text = 'Accusation ' + [i];
-//         // alert(h3Text + ': I accuse ' + friends[j] + ', with the ' + weapons[d] + ' in the ' + locations[p] + '!');
-//         alert(`Accusation ${i}: I accuse ${friends[i % friends.length]}, with the ${weapons[i % weapons.length]} in the ${locations[i % locations.length]}!`);
-
-//         // i++;
-//         // j++;
-//         // d++;
-//         // p++;
-
-//     });
- };
+};
+    // function accuseClicker() {
+    
+    //     return $('h3').on('click', function (event) {
+    //         i = 1
+    //         // var h3Text = 'Accusation ' + [i];
+    //         // alert(h3Text + ': I accuse ' + friends[j] + ', with the ' + weapons[d] + ' in the ' + locations[p] + '!');
+    //         alert(`Accusation ${i}: I accuse ${friends[i % friends.length]}, with the ${weapons[i % weapons.length]} in the ${locations[i % locations.length]}!`);
+    
+    //         // i++;
+    //         // j++;
+    //         // d++;
+    //         // p++;
+    
+    //     });
 
 // CREATED A CLOSURE BY PUTTING THIS FUNCTION WITHIN THE FOR LOOP AS A RETURN. I ALSO RESTRUCTURED THE VARIABLES AND THE ALERT A BIT.
 
